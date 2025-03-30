@@ -1,4 +1,4 @@
-# Hands-On Version Control Project
+# Hands-On Git Project: Collaborative Website Development with Git and Github
 
 ## Project Overview
 This project demonstrates how developers collaborate using Git. It covers essential operations such as branching, merging, and creating pull requests, showcasing best practices for version control in a collaborative environment.

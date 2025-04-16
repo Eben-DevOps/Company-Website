@@ -1,57 +1,52 @@
-# Hands-On Git Project: Collaborative Website Development with Git and Github
+># **basic-git-commands**
 
-## Project Overview
-This project demonstrates how developers collaborate using Git. It covers essential operations such as branching, merging, and creating pull requests, showcasing best practices for version control in a collaborative environment.
+The basic Git commands project
 
-## Key Features
-- **Creating the `index.html` File**  
-  Setting up the project structure and configuring the remote origin for Git.
+>**the project is about Git setup and implementation of these commands like `git checkout -b`, `git add`, `git commit`, `git push`, and `git merge` are executed directly in the terminal with efective hands on project**
 
-  ![Project Setup](image.png)
+----
+>## **Part 1: Setup amd Initial configuration**
 
-- **Commit Messages and Push Workflow**  
-  Adding meaningful commit messages and pushing changes to the main branch for seamless collaboration among developers.
+_Git installled, github acount signed up, created github account and github repository created_
 
-  ![Commit Workflow](image-1.png)
+![Github account](./img/1.%20gc.jpg)
 
-Creating my Repository
-![alt text](image-11.png)
+-----
+>## **Github repository**
+_repository named and descrption inputed_
+![repository](./img/2.%20gc.jpg)
 
-## Getting Started
-To get started with this project:
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Eben-DevOps/Hands-on-VCs-Project---Website-Development.git
-   ```
 
-2. Navigate into the project directory:
-```bash
-   cd Hands-on-VCs-Project---Website-Development
-```
+>## **Clone repository**
+_clone remote repository from github account into git local repository_
+![clone repository](./img/3.gc.jpg)
 
-3. Make a change to the Index.html file and cofirm the change on git status
-![alt text](image-2.png)
+>## **Git Workflow**
+_Create an empty file, add content, and add it to git_
+![`git add index.html`](./img/4.%20gc.jpg)
+![`git add index.html`](./img/6.%20index.jpg)
 
-4. Checkout changes to a new feature branch to not add directly to the main.
-![alt text](image-3.png)
 
-5. Commit to the changes to the new feature branch
-![alt text](image-4.png)
+>##  **Commit Changes and push**
 
-6. Push changes and publish new Branch using git push origin featurebranch
-![alt text](image-5.png)
+_perform `git commit -m "This is my first commit"`,`git push origin main`and push it to remote repository_
+![Git push](./img/5.%20gc%20push%20and%20commit.jpg)
 
-7. We have a new Branch now with our changes and we will create a pull request to the main branch.
-![alt text](image-6.png)
+># **Part 2: Simulating Tom and Jerry's Work**
+----
+>## Create branch Navigation page
+_create update-navigation branch and checkout then add content to the `index.html` file. `git add` and stage the information_
+![git checkout -b update-navigation](./img/7.%20not%20stage.jpg)
+![add and status](./img/add%20index.jpg)
 
-8. Changes and additons made to index.HTML file 
-![alt text](image-7.png)
+>##  **Commit update-navigation changes**
+_perform `git commit -m "Update navigation bar"`,`git push origin update-navigation`and pull from remote repository_
+![Git push](./img/8%20push%20repo%20tom.jpg)
 
-9. Merging our changes to the Main Branch
-![alt text](image-8.png)
 
-No conflicts
-![alt text](image-9.png)
+>## Create branch contact info page and push
+_create add-contact-info branch and checkout then add content to the `index.html` file. `git add` and commit the information, then push to the remote repository_
+![git checkout -b add-contact-info](./img/9.%20gc%20jery.jpg)
 
-Successfully merged and we cnan choose to delete the branch but I will keep this.
-![alt text](image-10.png)
+------
+>**the journey of version controla and collaboration was performed with hand on project in this work**
